@@ -401,7 +401,7 @@ p.lead {
 
 .nav-cta {
   padding: 0.5rem 1.25rem;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
 }
 
 @media (max-width: 1024px) {
@@ -445,7 +445,7 @@ p.lead {
   font-weight: 500;
   color: var(--color-text-light);
   transition: color 0.2s ease;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
 }
 
 .nav-link:hover,
