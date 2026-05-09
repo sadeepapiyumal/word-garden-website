@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
 import LogoImg from '../assets/Logo.png';
-import MultiplayerDemoVideo from '../assets/Videos/Multiplayer Game Demo.mp4';
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -58,7 +57,7 @@ const Navbar = () => {
 
         {/* Right Section: CTA & Mobile Menu */}
         <div className="navbar-right">
-          <a href={MultiplayerDemoVideo} target="_blank" rel="noopener noreferrer" className="btn btn-success nav-cta" style={{ textDecoration: 'none' }}>
+          <a href="https://youtu.be/Zx4Iw_vQPZY" target="_blank" rel="noopener noreferrer" className="btn btn-success nav-cta" style={{ textDecoration: 'none' }}>
             Watch Demo
           </a>
           <div className="mobile-menu-icon" onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>

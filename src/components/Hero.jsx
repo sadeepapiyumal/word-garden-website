@@ -1,6 +1,5 @@
 import React from 'react';
 import { PlayCircle, ArrowRight } from 'lucide-react';
-import MultiplayerDemoVideo from '../assets/Videos/Multiplayer Game Demo.mp4';
 
 const Hero = () => {
   return (
@@ -18,7 +17,7 @@ const Hero = () => {
             A futuristic AI-powered educational platform designed specifically for dyslexic children using adaptive learning, multiplayer collaboration, and anticipatory feedback.
           </p>
           <div className="flex gap-4" style={{ marginTop: 'var(--spacing-4)' }}>
-            <a href={MultiplayerDemoVideo} target="_blank" rel="noopener noreferrer" className="btn btn-primary" style={{ textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+            <a href="https://youtu.be/Zx4Iw_vQPZY" target="_blank" rel="noopener noreferrer" className="btn btn-primary" style={{ textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
               <PlayCircle size={24} />
               Watch Demo
             </a>

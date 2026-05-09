@@ -2,9 +2,9 @@ import React from 'react';
 
 const DemoVideos = () => {
   const videos = [
-    { title: "Mobile Application Demo", src: "https://youtube.com/shorts/bxNopvNw0nY" },
-    { title: "Multiplayer Game Demo", src: "https://youtu.be/Zx4Iw_vQPZY" },
-    { title: "Commercialization Pitch", src: "https://youtu.be/W7SSYIiQqL8" }
+    { title: "Mobile Application Demo", src: "https://www.youtube.com/embed/bxNopvNw0nY" },
+    { title: "Multiplayer Game Demo", src: "https://www.youtube.com/embed/Zx4Iw_vQPZY" },
+    { title: "Commercialization Pitch", src: "https://www.youtube.com/embed/W7SSYIiQqL8" }
   ];
 
   return (
